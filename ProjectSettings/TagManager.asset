@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player Laser
+  - MainPlayer
+  - Enemy
+  - EnemyLaser
+  - BEnemyBomb
+  - BossRocky
+  - PowerUP
+  - Sheild
+  - HeavyMachineGun
+  - RocketLauncher
+  - ExtraLife
+  - EnemySpawner
+  - BossSpawner
+  - BossBrainy
+  - BEnemyLaserBomb
+  - tinyMeteor
+  - madeMeteor
+  - bigMeteor
+  - hugeMeteor
+  - tinyFrozenMeteor
+  - icePeanut
+  - bigFrozenMeteor
+  - hugeFrozenMeteor
+  - medFrozenMeteor
+  - sfd_tinyMeteor
+  - sfd_madeMeteor
+  - sfd_bigMeteor
+  - sfd_tinyFrozenMeteor
+  - sfd_madeFrozenMeteor
+  - sfd_bigFrozenMeteor
+  - meteorDisabler
+  - BoundsForIceMeteor
+  - meteorCollider
+  - ExplosionDamage
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Player Projectile
+  - Enemy Projectile
+  - PowerUP
+  - BossBrainy
+  - Meteor
+  - MeteorForceFeild
+  - ClampedMeteor
+  - Player Barrier
+  - IcepeanutChoki
+  - IcepeanutMoki
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
