@@ -146,7 +146,7 @@ public class GameSession : MonoBehaviour
     SetActiveDeactivate accessPressCSetActiveScript;
     SetActiveDeactivate introTextSetActiveDeactivate;
     SetActiveDeactivate canvasScoreActivateDeactivate;
-
+    bool findLivesdone = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -162,13 +162,22 @@ public class GameSession : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
+            if(findLivesdone)
+            {
+
+            }
+            else 
+            {
+                DontDestroyOnLoad(gameObject);
+            }
+            
 
         }
     }
 
     private void Start()
     {
+        findLivesdone = false;
         //UI Cache
         onOffRocketGroup = rocketUICollection.GetComponent<SetActiveDeactivate>();
         onOFFRocketUI1 = rocketUI1.GetComponent<SetActiveDeactivate>();
@@ -223,7 +232,10 @@ public class GameSession : MonoBehaviour
     {
         CheckIFInspectorSetLevelforSpawnerThenSetLevelAccordingly();
 
-        LoadToNextLevelIfNoMoreLives();
+        if (!findLivesdone)
+        {
+            LoadToNextLevelIfNoMoreLives();
+        }
 
         GenerateRandomPowerUpAfterXPoints();
 
@@ -373,6 +385,7 @@ public class GameSession : MonoBehaviour
                 isPlayerDestroyed = false;
                 musicPlayerScript.PlayGameOver();
                 enemySpawnerSetActiveScriptLevelOne.DontSetActiveObject();
+                findLivesdone = true;
                 FindObjectOfType<Level>().LoadGameOver();
                 canvasScoreActivateDeactivate.DontSetActiveObject();
             }
@@ -950,7 +963,7 @@ public class GameSession : MonoBehaviour
         mBounds.SetActive(true);
         LevelIntroductionText.text = "Level Three";
         introTextSetActiveDeactivate.SetActiveObject();
-        //musicPlayerScript.PlayLevelThreeSound();
+        musicPlayerScript.PlayLevelThreeSound();
         yield return new WaitForSeconds(2);
         introTextSetActiveDeactivate.DontSetActiveObject();
         enemySpawnerSetActiveScriptLevelThree.SetActiveObject();

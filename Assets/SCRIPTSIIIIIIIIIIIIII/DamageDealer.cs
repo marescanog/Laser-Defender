@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +18,13 @@ public class DamageDealer : MonoBehaviour
 
     public void OnHitDestroyOtherObject()
     {
-        Destroy(gameObject);
+        try
+        {
+            Destroy(gameObject);
+        }
+        catch(Exception ex)
+        {
+            Debug.Log(ex.Message);
+        }
     }
 }

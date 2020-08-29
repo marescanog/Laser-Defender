@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
     [SerializeField] bool fireButtonIsHeldDown = false; //serialized for debugging purposes
 
     GameObject myNewIceCubeFreezeObject, smokeVFXFreezeObject, VFX1FreezeObject;
-
+    DamageDealer potato = new DamageDealer();
     // Start is called before the first frame update
     void Start()
     {
@@ -114,6 +114,8 @@ public class Player : MonoBehaviour
         machineGunCountDownOn = false;
         sheildOn = false;
         lockPlayerMovement = false;
+
+        
     }
 
     // Update is called once per frame
@@ -183,6 +185,18 @@ public class Player : MonoBehaviour
             mySpriteRenderer.color = Color.white;
         }
 
+        //Debug Delete later, delete also in start
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            Debug.Log("Debug Key to activate Machine gun");   
+            HeavyMachineGunPowerUpMethod(potato);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("Debug Key to activate death");
+            Disable_ThePlayer();
+        }
     }
 
     public void PlayerObjectmoveForward()
@@ -226,8 +240,8 @@ public class Player : MonoBehaviour
                 Debug.Log("load level4");
                 gameSessionScript.TurnOnLevelFour();
                 FindObjectOfType<Level>().LoadLevel4();
-                //musicPlayer.RestBGMVolume();
-                //musicPlayer.PlayBGMMusicLevelFour();
+                musicPlayer.RestBGMVolume();
+                musicPlayer.PlayBGMMusicLevelFour();
             }
             else if (levelNumber == 4)
             {
@@ -713,9 +727,7 @@ public class Player : MonoBehaviour
 
     public AudioClip GetLaserHitSoundSFXFromPlayerParent() { return getHitLaserSound; }
 
-
     public GameObject GetLaserHitVFXFromPlayerParent() { return laserHitVFX; }
-
 
     public AudioClip GetBombHitSFXFromPlayerParent() { return getHitBombSound; }
 

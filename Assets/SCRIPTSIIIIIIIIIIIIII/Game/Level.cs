@@ -33,11 +33,12 @@ public class Level : MonoBehaviour
     {
         StartCoroutine(DelayDeath());
     }
+
     private IEnumerator DelayDeath()
     {
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over");
-        musicPlayerScript.PlayBGMGameOver();
+        //musicPlayerScript.PlayBGMGameOver();
     }
 
     //Second Menu scene is Game Over
@@ -55,6 +56,11 @@ public class Level : MonoBehaviour
     public void LoadStartMenuReplay()
     {
         SceneManager.LoadScene("Raply Start Menu Replay");
+    }
+
+    public void LoadStartMenu()
+    {
+        SceneManager.LoadScene("Start Menu");
     }
 
     //Third Menu Start Button Accesses this script
