@@ -37,18 +37,18 @@ public class Level : MonoBehaviour
     private IEnumerator DelayDeath()
     {
         yield return new WaitForSeconds(delayInSeconds);
-        SceneManager.LoadScene("Game Over");
         //musicPlayerScript.PlayBGMGameOver();
+        SceneManager.LoadScene("Game Over");
     }
 
     //Second Menu scene is Game Over
     //Restart Button Accesses this script
-    public void LoadMainGameFromContinue()
+    public void LoadMainGameFromContinue()//should just go through start menu replay so that sceneObejcts (music player & gamesession) can be destroyed
     {
         SceneManager.LoadScene(1);
         gameSessionScript.ResetGame();
         gameSessionScript.Level1Start();
-        musicPlayerScript.PlayBGMMusicLevelOne();
+        //musicPlayerScript.PlayBGMMusicLevelOne(); Level.CS should not play music since musicloader will be destroyed
     }
 
     //In Game Over Menu -Main Menu Button Accesses this script
@@ -56,11 +56,6 @@ public class Level : MonoBehaviour
     public void LoadStartMenuReplay()
     {
         SceneManager.LoadScene("Raply Start Menu Replay");
-    }
-
-    public void LoadStartMenu()
-    {
-        SceneManager.LoadScene("Start Menu");
     }
 
     //Third Menu Start Button Accesses this script

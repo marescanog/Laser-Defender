@@ -27,6 +27,7 @@ public class MusicPlayer : MonoBehaviour
     [SerializeField] AudioClip FinalRoundSound;
     [SerializeField] AudioClip MissionCompleteSound;
 
+    bool gamesessionDestroyed = false;
     //float currentTime = 0;
     //float start;
 
@@ -59,7 +60,14 @@ public class MusicPlayer : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
+            if (gamesessionDestroyed)
+            {
+
+            }
+            else
+            {
+                DontDestroyOnLoad(gameObject);
+            }
         }
 
     }
@@ -141,5 +149,15 @@ public class MusicPlayer : MonoBehaviour
         bGM.Stop();
         bGM.clip = gameOverBGM;
         bGM.Play();
+    }
+
+    public void DestroyPair()
+    {
+        gamesessionDestroyed = true;
+    }
+
+    public void EnablePair()
+    {
+        gamesessionDestroyed = false;
     }
 }

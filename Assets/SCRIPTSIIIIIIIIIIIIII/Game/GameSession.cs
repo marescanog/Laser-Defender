@@ -86,6 +86,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] GameObject mMeteorSpawner;
     [SerializeField] GameObject mPeanuts;
     [SerializeField] GameObject mBounds;
+    [SerializeField] GameObject mBossPeanut;
 
     int numberOfLives = 3;
     int numberOfRockets = 0;
@@ -381,12 +382,13 @@ public class GameSession : MonoBehaviour
                 //if placed in loadlevelcode it will trigger the even in enemyspawner despite being first time
                 //paced in death event instead
                 ActivateBoolIsitFirstTimeForEnemySpawnerForEachLevel();
-
+                musicPlayerScript.DestroyPair();
+                findLivesdone = true;
                 isPlayerDestroyed = false;
                 musicPlayerScript.PlayGameOver();
                 enemySpawnerSetActiveScriptLevelOne.DontSetActiveObject();
-                findLivesdone = true;
                 FindObjectOfType<Level>().LoadGameOver();
+                musicPlayerScript.PlayBGMGameOver();
                 canvasScoreActivateDeactivate.DontSetActiveObject();
             }
         }
@@ -622,7 +624,8 @@ public class GameSession : MonoBehaviour
 
     public void ResetGame()
     {
-
+        musicPlayerScript.EnablePair();
+        findLivesdone = false;
         isPlayerDestroyed = false;
         score = 0;
         powerUpScore = 0;
@@ -647,6 +650,22 @@ public class GameSession : MonoBehaviour
         TurnOFFGamesessionBoolPlayerisDestroyed();
         StopAllCoroutines();
         ResetTheEnemySpawnersBoolToOriginalSettings();
+
+        enemySpawnerObjectLevelTwo.SetActive(false);
+        enemySpawnerObjectLevelThree.SetActive(false);
+        enemySpawnerObjectLevelFour.SetActive(false);
+        enemySpawnerObjectLevelFive.SetActive(false);
+        bossSpawnerObjectLevelTwo.SetActive(false);
+        bossSpawnerObjectLevelThree.SetActive(false);
+        bossSpawnerObjectLevelFour.SetActive(false);
+        bossSpawnerObjectLevelFive.SetActive(false);
+
+        //Level3Objects
+        mMeteors.SetActive(false);
+        mMeteorSpawner.SetActive(false);
+        mPeanuts.SetActive(false);
+        mBounds.SetActive(false);
+        mBossPeanut.SetActive(false);
     }
 
     //Called to Returns Values or Change values
