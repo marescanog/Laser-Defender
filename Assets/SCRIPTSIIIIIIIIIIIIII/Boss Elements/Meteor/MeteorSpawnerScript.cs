@@ -597,6 +597,10 @@ public class MeteorSpawnerScript : MonoBehaviour
         }
     }
 
+    internal void RestartAllMeteorPositions()
+    {
+
+    }
 
     // Update is called once per frame
     void Update()

@@ -53,7 +53,7 @@ public class NewMeteorScript : MonoBehaviour
     bool inflictBlastDamageOnceBool = false;
 
     // Start is called before the first frame update
-
+    public string GetName() { return myName; }
 
     void Start()
     {

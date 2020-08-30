@@ -88,6 +88,8 @@ public class GameSession : MonoBehaviour
     [SerializeField] GameObject mBounds;
     [SerializeField] GameObject mBossPeanut;
 
+    MeteorSpawnerScript mMeteorSpawnerScript;
+
     int numberOfLives = 3;
     int numberOfRockets = 0;
     int randomNumberForSpawner = 0;
@@ -178,6 +180,7 @@ public class GameSession : MonoBehaviour
 
     private void Start()
     {
+        mMeteorSpawnerScript = mMeteorSpawner.GetComponent<MeteorSpawnerScript>();
         findLivesdone = false;
         //UI Cache
         onOffRocketGroup = rocketUICollection.GetComponent<SetActiveDeactivate>();
@@ -622,9 +625,27 @@ public class GameSession : MonoBehaviour
         StopCoroutine(ShowGuideforPressC());
     }
 
+    public void ResetLevelThree()
+    {
+        //Level3Objects
+        if (levelThreeOn)
+        {
+            mMeteors.SetActive(false);
+            mMeteorSpawner.SetActive(false);
+            mPeanuts.SetActive(false);
+            mBounds.SetActive(false);
+            mBossPeanut.SetActive(false);
+        }
+    }
+
     public void ResetGame()
     {
-        musicPlayerScript.EnablePair();
+        //sheild reset
+        if (playerObjectScript.GetIfPlayerSheildUI_isActive())
+        {
+            playerObjectScript.DeactivateSheildduetoDeath();
+        }
+        
         findLivesdone = false;
         isPlayerDestroyed = false;
         score = 0;
@@ -637,7 +658,7 @@ public class GameSession : MonoBehaviour
         onOffRocketGroup.SetActiveObject();
         playerObjectScript.DisableRocketHeadShow();
         playerObjectScript.RestartHeavyMachineGun();
-        //playerObjectScript.SheildRestart();
+        
         playerObjectScript.TurnOffLockPlayerMovement();
         canvasScoreActivateDeactivate.SetActiveObject();
         TurnOnLevelOne();
@@ -659,13 +680,6 @@ public class GameSession : MonoBehaviour
         bossSpawnerObjectLevelThree.SetActive(false);
         bossSpawnerObjectLevelFour.SetActive(false);
         bossSpawnerObjectLevelFive.SetActive(false);
-
-        //Level3Objects
-        mMeteors.SetActive(false);
-        mMeteorSpawner.SetActive(false);
-        mPeanuts.SetActive(false);
-        mBounds.SetActive(false);
-        mBossPeanut.SetActive(false);
     }
 
     //Called to Returns Values or Change values
