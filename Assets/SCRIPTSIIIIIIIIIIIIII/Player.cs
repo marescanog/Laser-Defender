@@ -98,6 +98,9 @@ public class Player : MonoBehaviour
 
     GameObject myNewIceCubeFreezeObject, smokeVFXFreezeObject, VFX1FreezeObject;
     DamageDealer potato = new DamageDealer();
+    bool bActivatedSheild = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,8 +117,7 @@ public class Player : MonoBehaviour
         machineGunCountDownOn = false;
         sheildOn = false;
         lockPlayerMovement = false;
-
-        
+        bActivatedSheild = false;
     }
 
     // Update is called once per frame
@@ -196,6 +198,15 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Debug Key to activate death");
             Disable_ThePlayer();
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            DamageDealer dummyDamagedealer = new DamageDealer();
+            Debug.Log("Debug Key to activate sheild");
+            sheildHealthBarScript.SetActiveSheildHealthBar();
+            sheildScript.SetActiveSheildMethod();
+            bActivatedSheild = true;
         }
     }
 
@@ -332,6 +343,11 @@ public class Player : MonoBehaviour
         laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
         AudioSource.PlayClipAtPoint(rocketpressSFX, Camera.main.transform.position, shootSoundVolume);
     }
+    public void SheildUINotVisible() { bActivatedSheild = false; }
+    public bool GetIfPlayerSheildUI_isActive() { return bActivatedSheild; }
+    public void TurnOffSheild() { sheildOn = false; }
+
+    public void DeactivateSheildduetoDeath() { sheildScript.DontSetActiveSheildHealth(); }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -356,6 +372,7 @@ public class Player : MonoBehaviour
                 SheildPowerUpmethod(damageDealer);
                 sheildHealthBarScript.SetActiveSheildHealthBar();
                 sheildScript.SetActiveSheildMethod();
+                bActivatedSheild = true;
             }
             else if (other.gameObject.tag == "ExtraLife")
             {
@@ -458,12 +475,6 @@ public class Player : MonoBehaviour
         damageDealer.OnHitDestroyOtherObject();
     }
 
-    public void SheildRestart()
-    {
-        sheildOn = false;
-        sheildScript.DontSetActiveSheildHealth();
-    }
-
     public void RocketLauncherPowerUPMethod(DamageDealer damageDealer)
     {
         Debug.Log("Touched RocketLauncher");
@@ -495,7 +506,7 @@ public class Player : MonoBehaviour
         damageDealer.OnHitDestroyOtherObject();
     }
 
-    public void TurnOffSheild() { sheildOn = false; }
+    
 
     public IEnumerator DelayInvincibility()
     {
@@ -538,6 +549,7 @@ public class Player : MonoBehaviour
                 }
                 else 
                 {
+                    sheildOn = false;
                     Disable_ThePlayer();
                 }
             }
@@ -914,4 +926,6 @@ public class Player : MonoBehaviour
         transform.position = new Vector3(myposition.x, myposition.y - 0.25f, myposition.z);
         lockItUpToJitter = false;
     }
+
+
 }
