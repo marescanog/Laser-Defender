@@ -195,6 +195,7 @@ Quaternion.identity);
         sheildHealthBarScript.DontSetActiveSheildHealthBar();
         DontSetActiveSheildMethod();
         health = 0;
+        parentPlayer.SheildUINotVisible();
     }
 
     public int GetSheildHealth() {return health;} //Accessed by Sheild health bar
