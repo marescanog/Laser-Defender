@@ -625,7 +625,7 @@ public class GameSession : MonoBehaviour
         StopCoroutine(ShowGuideforPressC());
     }
 
-    public void ResetLevelThree()
+    public void ResetGame()
     {
         //Level3Objects
         if (levelThreeOn)
@@ -635,11 +635,11 @@ public class GameSession : MonoBehaviour
             mPeanuts.SetActive(false);
             mBounds.SetActive(false);
             mBossPeanut.SetActive(false);
+            mMeteorSpawnerScript.Reset_All_Meteor_Position_and_MeteorScriptvalues();
+            //Bug when level is realoaded the stuff is not reset
+            //CheckIFInspectorSetLevelforSpawnerThenSetLevelAccordingly meteors are not in original position
         }
-    }
 
-    public void ResetGame()
-    {
         //sheild reset
         if (playerObjectScript.GetIfPlayerSheildUI_isActive())
         {

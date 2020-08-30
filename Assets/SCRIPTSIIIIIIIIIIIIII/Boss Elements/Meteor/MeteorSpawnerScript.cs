@@ -597,23 +597,32 @@ public class MeteorSpawnerScript : MonoBehaviour
         }
     }
 
-    internal void RestartAllMeteorPositions()
+    public void Reset_All_Meteor_Position_and_MeteorScriptvalues()
     {
+        //Add Code to reset Values in the End
+        if (modListdeletedMeteorObject.Count>0)
+        {
+            foreach(GameObject meteorInList in modListdeletedMeteorObject)
+            {
+                meteorInList.GetComponent<NewMeteorScript>().Back_To_Original_Position();
+            }
+        }
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*
+        
         //more code for testing
         Delete_this_Method_to_cycle_through_meteors_to_Freeze();
         Delete_this_Method_to_cycle_through_meteors_to_lauch(); 
 
         //code for keypress testing [delete later]
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            counter = 2;
+            counter = 6;
 
             switch (trueOrFalse_OneMeansTrue)
             {
@@ -627,8 +636,9 @@ public class MeteorSpawnerScript : MonoBehaviour
                     Debug.Log("Not In cases");
                     break;
             }
+            Debug.Log("spawning meteor");
         }
-        */
+        
 
         //disable if counter not needed
         if (turnOnMeteorSpawnerCounter == true)// Delete this since Enabling/Disabling is for debugging purposes.

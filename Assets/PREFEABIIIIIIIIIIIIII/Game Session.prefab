@@ -21648,6 +21648,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012191635434
 GameObject:
   m_ObjectHideFlags: 0
@@ -22116,6 +22118,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012295262669
 GameObject:
   m_ObjectHideFlags: 0
@@ -22338,6 +22342,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012307247049
 GameObject:
   m_ObjectHideFlags: 0
@@ -22560,6 +22566,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012409361276
 GameObject:
   m_ObjectHideFlags: 0
@@ -22864,6 +22872,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012635648526
 GameObject:
   m_ObjectHideFlags: 0
@@ -23086,6 +23096,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012715513815
 GameObject:
   m_ObjectHideFlags: 0
@@ -23390,6 +23402,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 5.449218
+  originalYPos: 4.706727
 --- !u!1 &828468012806951450
 GameObject:
   m_ObjectHideFlags: 0
@@ -23612,6 +23626,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468012840129558
 GameObject:
   m_ObjectHideFlags: 0
@@ -24080,6 +24096,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013155911925
 GameObject:
   m_ObjectHideFlags: 0
@@ -24466,6 +24484,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013214055525
 GameObject:
   m_ObjectHideFlags: 0
@@ -24691,6 +24711,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Villareal
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013223884063
 GameObject:
   m_ObjectHideFlags: 0
@@ -24913,6 +24935,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013296092230
 GameObject:
   m_ObjectHideFlags: 0
@@ -25381,6 +25405,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013634752561
 GameObject:
   m_ObjectHideFlags: 0
@@ -25685,6 +25711,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013707873028
 GameObject:
   m_ObjectHideFlags: 0
@@ -26071,6 +26099,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468013932001685
 GameObject:
   m_ObjectHideFlags: 0
@@ -26375,6 +26405,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468014138395655
 GameObject:
   m_ObjectHideFlags: 0
@@ -26679,6 +26711,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &828468014229783849
 GameObject:
   m_ObjectHideFlags: 0
@@ -26905,6 +26939,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &1409679293855265942
 GameObject:
   m_ObjectHideFlags: 0
@@ -32422,6 +32458,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407141744845011
 GameObject:
   m_ObjectHideFlags: 0
@@ -32726,6 +32764,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407142045105130
 GameObject:
   m_ObjectHideFlags: 0
@@ -33112,6 +33152,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407142288879298
 GameObject:
   m_ObjectHideFlags: 0
@@ -33416,6 +33458,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407142927029605
 GameObject:
   m_ObjectHideFlags: 0
@@ -33638,6 +33682,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407142976454491
 GameObject:
   m_ObjectHideFlags: 0
@@ -33860,6 +33906,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 'Jacobs '
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407142990832294
 GameObject:
   m_ObjectHideFlags: 0
@@ -34081,6 +34129,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Ramirez
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407143072308278
 GameObject:
   m_ObjectHideFlags: 0
@@ -34384,6 +34434,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &2081407143125923336
 GameObject:
   m_ObjectHideFlags: 0
@@ -35073,6 +35125,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3806138485302431945
 GameObject:
   m_ObjectHideFlags: 0
@@ -35313,6 +35367,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Rosales
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3806138485389722884
 GameObject:
   m_ObjectHideFlags: 0
@@ -35553,6 +35609,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: Landon
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3806138485837195379
 GameObject:
   m_ObjectHideFlags: 0
@@ -35793,6 +35851,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193054540711615
 GameObject:
   m_ObjectHideFlags: 0
@@ -36419,6 +36479,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193054899103325
 GameObject:
   m_ObjectHideFlags: 0
@@ -36635,6 +36697,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193054955729433
 GameObject:
   m_ObjectHideFlags: 0
@@ -36851,6 +36915,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055002132081
 GameObject:
   m_ObjectHideFlags: 0
@@ -37067,6 +37133,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055060084780
 GameObject:
   m_ObjectHideFlags: 0
@@ -37283,6 +37351,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055120800950
 GameObject:
   m_ObjectHideFlags: 0
@@ -37663,6 +37733,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055210414139
 GameObject:
   m_ObjectHideFlags: 0
@@ -37961,6 +38033,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055244355632
 GameObject:
   m_ObjectHideFlags: 0
@@ -38259,6 +38333,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055311035464
 GameObject:
   m_ObjectHideFlags: 0
@@ -38475,6 +38551,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055332258681
 GameObject:
   m_ObjectHideFlags: 0
@@ -38855,6 +38933,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055436993134
 GameObject:
   m_ObjectHideFlags: 0
@@ -39153,6 +39233,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055478168229
 GameObject:
   m_ObjectHideFlags: 0
@@ -39369,6 +39451,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055489013423
 GameObject:
   m_ObjectHideFlags: 0
@@ -39667,6 +39751,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055695849222
 GameObject:
   m_ObjectHideFlags: 0
@@ -39883,6 +39969,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055767670579
 GameObject:
   m_ObjectHideFlags: 0
@@ -40181,6 +40269,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055977412605
 GameObject:
   m_ObjectHideFlags: 0
@@ -40397,6 +40487,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193055991023875
 GameObject:
   m_ObjectHideFlags: 0
@@ -40777,6 +40869,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193056314784753
 GameObject:
   m_ObjectHideFlags: 0
@@ -41075,6 +41169,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193056376610003
 GameObject:
   m_ObjectHideFlags: 0
@@ -41455,6 +41551,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193056507740991
 GameObject:
   m_ObjectHideFlags: 0
@@ -41671,6 +41769,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &3933193056623136207
 GameObject:
   m_ObjectHideFlags: 0
@@ -42282,6 +42382,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273295212980661
 GameObject:
   m_ObjectHideFlags: 0
@@ -42500,6 +42602,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273295298935719
 GameObject:
   m_ObjectHideFlags: 0
@@ -42718,6 +42822,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273295334313293
 GameObject:
   m_ObjectHideFlags: 0
@@ -43018,6 +43124,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273295670576593
 GameObject:
   m_ObjectHideFlags: 0
@@ -43482,6 +43590,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273295931183424
 GameObject:
   m_ObjectHideFlags: 0
@@ -43700,6 +43810,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 'Johnson '
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273296013841252
 GameObject:
   m_ObjectHideFlags: 0
@@ -43918,6 +44030,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273296132807952
 GameObject:
   m_ObjectHideFlags: 0
@@ -44218,6 +44332,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273296549646082
 GameObject:
   m_ObjectHideFlags: 0
@@ -44518,6 +44634,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273296713822580
 GameObject:
   m_ObjectHideFlags: 0
@@ -44736,6 +44854,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4087273296753700567
 GameObject:
   m_ObjectHideFlags: 0
@@ -45059,6 +45179,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4698931890425380985
 GameObject:
   m_ObjectHideFlags: 0
@@ -45300,6 +45422,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Jimenez
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4698931891111259305
 GameObject:
   m_ObjectHideFlags: 0
@@ -45706,6 +45830,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4698931891964588021
 GameObject:
   m_ObjectHideFlags: 0
@@ -45948,6 +46074,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: Price
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4798709621141383866
 GameObject:
   m_ObjectHideFlags: 0
@@ -46342,6 +46470,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Taguptup
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4798709621779907216
 GameObject:
   m_ObjectHideFlags: 0
@@ -46572,6 +46702,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: White
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &4919580992997901676
 GameObject:
   m_ObjectHideFlags: 0
@@ -47346,6 +47478,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Santos
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &5817546781998014001
 GameObject:
   m_ObjectHideFlags: 0
@@ -47592,6 +47726,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: Smith
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &5817546782835877759
 GameObject:
   m_ObjectHideFlags: 0
@@ -48049,6 +48185,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 'Morris '
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &6279059163388725386
 GameObject:
   m_ObjectHideFlags: 0
@@ -48434,6 +48572,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &6279059164095525723
 GameObject:
   m_ObjectHideFlags: 0
@@ -48737,6 +48877,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &6279059165058498272
 GameObject:
   m_ObjectHideFlags: 0
@@ -48958,6 +49100,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: Lopez
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &6279059165183135532
 GameObject:
   m_ObjectHideFlags: 0
@@ -49582,6 +49726,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173014722787
 GameObject:
   m_ObjectHideFlags: 0
@@ -49883,6 +50029,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173074444846
 GameObject:
   m_ObjectHideFlags: 0
@@ -50184,6 +50332,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173188829888
 GameObject:
   m_ObjectHideFlags: 0
@@ -50485,6 +50635,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173226957341
 GameObject:
   m_ObjectHideFlags: 0
@@ -50950,6 +51102,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173343583645
 GameObject:
   m_ObjectHideFlags: 0
@@ -51169,6 +51323,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173411874507
 GameObject:
   m_ObjectHideFlags: 0
@@ -51388,6 +51544,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173444270827
 GameObject:
   m_ObjectHideFlags: 0
@@ -51689,6 +51847,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173489587334
 GameObject:
   m_ObjectHideFlags: 0
@@ -52072,6 +52232,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173588796972
 GameObject:
   m_ObjectHideFlags: 0
@@ -52373,6 +52535,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173664308872
 GameObject:
   m_ObjectHideFlags: 0
@@ -52674,6 +52838,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173758913333
 GameObject:
   m_ObjectHideFlags: 0
@@ -52893,6 +53059,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173768580226
 GameObject:
   m_ObjectHideFlags: 0
@@ -53194,6 +53362,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173973730198
 GameObject:
   m_ObjectHideFlags: 0
@@ -53413,6 +53583,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331173979427740
 GameObject:
   m_ObjectHideFlags: 0
@@ -53632,6 +53804,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174012541947
 GameObject:
   m_ObjectHideFlags: 0
@@ -54179,6 +54353,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174218525850
 GameObject:
   m_ObjectHideFlags: 0
@@ -54480,6 +54656,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174303178749
 GameObject:
   m_ObjectHideFlags: 0
@@ -54781,6 +54959,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174329114839
 GameObject:
   m_ObjectHideFlags: 0
@@ -55328,6 +55508,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174451421007
 GameObject:
   m_ObjectHideFlags: 0
@@ -55629,6 +55811,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174519574117
 GameObject:
   m_ObjectHideFlags: 0
@@ -55848,6 +56032,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174529044871
 GameObject:
   m_ObjectHideFlags: 0
@@ -56067,6 +56253,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174577614811
 GameObject:
   m_ObjectHideFlags: 0
@@ -56368,6 +56556,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174674859071
 GameObject:
   m_ObjectHideFlags: 0
@@ -56669,6 +56859,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174745406865
 GameObject:
   m_ObjectHideFlags: 0
@@ -56888,6 +57080,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174754753846
 GameObject:
   m_ObjectHideFlags: 0
@@ -57107,6 +57301,8 @@ MonoBehaviour:
   isSpawnedOriginal: 1
   isSpawnedFrozen: 0
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174840162022
 GameObject:
   m_ObjectHideFlags: 0
@@ -57326,6 +57522,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8018331174938114695
 GameObject:
   m_ObjectHideFlags: 0
@@ -57709,6 +57907,8 @@ MonoBehaviour:
   isSpawnedOriginal: 0
   isSpawnedFrozen: 1
   familyNameOfMeteor: 
+  originalXPos: 0
+  originalYPos: 0
 --- !u!1 &8119583239111129537
 GameObject:
   m_ObjectHideFlags: 0

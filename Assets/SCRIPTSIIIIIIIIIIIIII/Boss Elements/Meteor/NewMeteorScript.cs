@@ -41,6 +41,10 @@ public class NewMeteorScript : MonoBehaviour
     [Header("FamilyName")]
     [SerializeField] string familyNameOfMeteor;
 
+    [Header("Coordinates")]
+    [SerializeField] float originalXPos;
+    [SerializeField] float originalYPos;
+
     string listType;
     bool currentBoolForFamily = false;
 
@@ -906,9 +910,7 @@ public class NewMeteorScript : MonoBehaviour
             if (gameObject.tag == "tinyFrozenMeteor")
             {
                 meteorSpawnerScript.Remove_meteor_from_List_withinBounds_due_to_death(gameObject);
-            }
-            
-            
+            }           
 
             //Executes Death code
             if (isSpawnedOriginal)
@@ -999,6 +1001,8 @@ public class NewMeteorScript : MonoBehaviour
 
     public void Back_To_Original_Position()
     {
+        Debug.Log(myName);
+
         if (isSpawnedOriginal)
         {
             switch(myName)
