@@ -44,6 +44,7 @@ public class NewMeteorScript : MonoBehaviour
     [Header("Coordinates")]
     [SerializeField] float originalXPos;
     [SerializeField] float originalYPos;
+    private Vector2 originalPosition;
 
     string listType;
     bool currentBoolForFamily = false;
@@ -59,8 +60,11 @@ public class NewMeteorScript : MonoBehaviour
     // Start is called before the first frame update
     public string GetName() { return myName; }
 
+
     void Start()
     {
+        originalPosition = new Vector2(originalXPos, originalYPos);
+
         myTransformStored = transform;
         myName = gameObject.name;
 
@@ -110,7 +114,7 @@ public class NewMeteorScript : MonoBehaviour
                 freezeOn = true;
             }
         }
-        
+        */
 
         //delete this stop motion kepress after testing. freezes meteor for testing
         if (Input.GetKeyDown(KeyCode.Backspace))
@@ -125,7 +129,7 @@ public class NewMeteorScript : MonoBehaviour
             }
 
         }
-        */
+        
     }
 
     public void Stop_This_meteor()
@@ -1002,7 +1006,6 @@ public class NewMeteorScript : MonoBehaviour
     public void Back_To_Original_Position()
     {
         Debug.Log(myName);
-
         if (isSpawnedOriginal)
         {
             switch(myName)
@@ -1041,7 +1044,7 @@ public class NewMeteorScript : MonoBehaviour
                     transform.localPosition = new Vector2(5.055676f, 4.657573f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "dennis":
-                    transform.localPosition = new Vector2(5.449218f, 4.706727f); RestartSettingsfor_OriginalMeteor_to_NonFrozen(); //Here is where stops for RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen(); //Here is where stops for RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Jackie A Smith":
                     transform.localPosition = new Vector2(4.865316f, 3.84336f); Run_With_Bool_Minus_One_Smith_Baby();
