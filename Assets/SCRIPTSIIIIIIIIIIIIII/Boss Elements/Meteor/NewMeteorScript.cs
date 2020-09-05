@@ -1011,154 +1011,154 @@ public class NewMeteorScript : MonoBehaviour
             switch(myName)
             {
                 case "Toby A Smith":
-                    transform.localPosition = new Vector2(4.4f, 6f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Jackie B Landon":
-                    transform.localPosition = new Vector2(5.483977f, 6f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Jackie C Price":
-                    transform.localPosition = new Vector2(6.243805f, 6f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Jackie D White":
-                    transform.localPosition = new Vector2(4.170209f, 5.263801f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Robert E Jacobs":
-                    transform.localPosition = new Vector2(4.891702f, 5.198263f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Robert F morris":
-                    transform.localPosition = new Vector2(5.465616f, 5.329339f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Robert G Johnson":
-                    transform.localPosition = new Vector2(6.023133f, 5.345723f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "tina":
-                    transform.localPosition = new Vector2(4.039029f, 4.608419f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "jacqueline":
-                    transform.localPosition = new Vector2(4.399775f, 4.641189f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "herbert":
-                    transform.localPosition = new Vector2(4.711329f, 4.624804f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "matty":
-                    transform.localPosition = new Vector2(5.055676f, 4.657573f); RestartSettingsfor_OriginalMeteor_to_NonFrozen();
+                    transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "dennis":
                     transform.localPosition = originalPosition; RestartSettingsfor_OriginalMeteor_to_NonFrozen(); //Here is where stops for RestartSettingsfor_OriginalMeteor_to_NonFrozen();
                     break;
                 case "Jackie A Smith":
-                    transform.localPosition = new Vector2(4.865316f, 3.84336f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Jackie B Smith":
-                    transform.localPosition = new Vector2(4.131967f, 3.84336f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Robert A Smith":
-                    transform.localPosition = new Vector2(5.999564f, 3.6382f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Robert B Smith":
-                    transform.localPosition = new Vector2(5.491108f, 3.677278f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Robert D Smith":
-                    transform.localPosition = new Vector2(6.058233f, 4.165755f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Robert E Smith":
-                    transform.localPosition = new Vector2(5.530221f, 4.136446f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "tina Smith":
-                    transform.localPosition = new Vector2(6.028898f, 3.218109f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "jacqueline Smith":
-                    transform.localPosition = new Vector2(5.764892f, 3.296266f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "herbert Smith":
-                    transform.localPosition = new Vector2(5.451997f, 3.257188f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "matty Smith":
-                    transform.localPosition = new Vector2(5.178213f, 3.315805f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "dennis Smith":
-                    transform.localPosition = new Vector2(4.855538f, 3.325574f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "jayson Smith":
-                    transform.localPosition = new Vector2(4.601311f, 3.266957f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Paolo Smith":
-                    transform.localPosition = new Vector2(4.31775f, 3.306036f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Cataract Smith":
-                    transform.localPosition = new Vector2(4.034187f, 3.266957f); Run_With_Bool_Minus_One_Smith_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Smith_Baby();
                     break;
                 case "Robert A Landon": 
-                    transform.localPosition = new Vector2(4.07f, 4.12f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "Robert B Landon":
-                    transform.localPosition = new Vector2(4.51f, 4.18f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "tina Landon":
-                    transform.localPosition = new Vector2(5.84f, 4.19f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "jacqueline Landon":
-                    transform.localPosition = new Vector2(6.12f, 4.19f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "herbert Landon":
-                    transform.localPosition = new Vector2(4.03f, 3.71f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "matty Landon":
-                    transform.localPosition = new Vector2(4.38f, 3.82f); Run_With_Bool_Minus_One_Landon_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Landon_Baby();
                     break;
                 case "Robert A Price":
-                    transform.localPosition = new Vector2(4.07f, 4.12f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "Robert B Price":
-                    transform.localPosition = new Vector2(4.51f, 4.18f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "tina Price":
-                    transform.localPosition = new Vector2(5.84f, 4.19f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "jacqueline Price":
-                    transform.localPosition = new Vector2(6.12f, 4.19f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "herbert Price":
-                    transform.localPosition = new Vector2(4.03f, 3.71f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "matty Price":
-                    transform.localPosition = new Vector2(4.38f, 3.82f); Run_With_Bool_Minus_One_Price_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Price_Baby();
                     break;
                 case "Robert A White":
-                    transform.localPosition = new Vector2(4.07f, 4.12f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "Robert B White":
-                    transform.localPosition = new Vector2(4.51f, 4.18f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "tina White":
-                    transform.localPosition = new Vector2(5.84f, 4.19f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "jacqueline White":
-                    transform.localPosition = new Vector2(6.12f, 4.19f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "herbert White":
-                    transform.localPosition = new Vector2(4.03f, 3.71f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "matty White":
-                    transform.localPosition = new Vector2(4.38f, 3.82f); Run_With_Bool_Minus_One_White_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_White_Baby();
                     break;
                 case "tina Jacobs":
-                    transform.localPosition = new Vector2(3.98f, 4.29f); Run_With_Bool_Minus_One_Jacobs_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jacobs_Baby();
                     break;
                 case "jacqueline Jacobs":
-                    transform.localPosition = new Vector2(4.3f, 4.32f); Run_With_Bool_Minus_One_Jacobs_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jacobs_Baby();
                     break;
                 case "tina Morris":
-                    transform.localPosition = new Vector2(3.98f, 4.29f); Run_With_Bool_Minus_One_Morris_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Morris_Baby();
                     break;
                 case "jacqueline Morris":
-                    transform.localPosition = new Vector2(4.3f, 4.32f); Run_With_Bool_Minus_One_Morris_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Morris_Baby();
                     break;
                 case "tina Johnson":
-                    transform.localPosition = new Vector2(3.98f, 4.29f); Run_With_Bool_Minus_One_johnson_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_johnson_Baby();
                     break;
                 case "jacqueline Johnson":
-                    transform.localPosition = new Vector2(4.3f, 4.32f); Run_With_Bool_Minus_One_johnson_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_johnson_Baby();
                     break;
                 default:
                     Debug.Log("MeteorName is Not Listed -NewmeteorScript>>BackToOriginalPos");
@@ -1171,154 +1171,154 @@ public class NewMeteorScript : MonoBehaviour
             switch(myName)
             {
                 case "Diego Santos":
-                    transform.localPosition = new Vector2(-5.68f, 3.79f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Yanna Rosales":
-                    transform.localPosition = new Vector2(-6.04f, 3.63f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Yanna Jimenez":
-                    transform.localPosition = new Vector2(-6.07f, 2.89f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Yanna Taguptup":
-                    transform.localPosition = new Vector2(-6.10f, 2.21f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Hyacynth Ramirez":
-                    transform.localPosition = new Vector2(-6.02f, 1.51f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Hyacynth Lopez":
-                    transform.localPosition = new Vector2(-6.07f, 0.96f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Hyacynth Villareal":
-                    transform.localPosition = new Vector2(-6.15f, -0.78f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "totoy":
-                    transform.localPosition = new Vector2(-6.07f, -0.01f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "opay":
-                    transform.localPosition = new Vector2(-6.14f, -0.41f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "bantay":
-                    transform.localPosition = new Vector2(-6.14f, 0.41f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "bulabog":
-                    transform.localPosition = new Vector2(-6.14f, 0.41f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "cordapia":
-                    transform.localPosition = new Vector2(-6.14f, 0.41f);
+                    transform.localPosition = originalPosition;
                     break;
                 case "Yanna A Santos":
-                    transform.localPosition = new Vector2(-4.14f, 4.68f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Yanna B Santos":
-                    transform.localPosition = new Vector2(-4.82f, 4.66f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Hyacynth A Santos":
-                    transform.localPosition = new Vector2(-3.62f, 5.26f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Hyacynth B Santos":
-                    transform.localPosition = new Vector2(-4.10f, 5.31f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Hyacynth C Santos":
-                    transform.localPosition = new Vector2(-4.70f, 5.24f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Hyacynth D Santos":
-                    transform.localPosition = new Vector2(-5.19f, 5.16f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "totoy Santos":
-                    transform.localPosition = new Vector2(-3.19f, 5.54f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "opay Santos":
-                    transform.localPosition = new Vector2(-3.49f, 5.78f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "bantay Santos":
-                    transform.localPosition = new Vector2(-3.90f, 5.74f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "bulabog Santos":
-                    transform.localPosition = new Vector2(-4.19f, 5.78f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "cordapia Santos":
-                    transform.localPosition = new Vector2(-4.49f, 5.61f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "felimon Santos":
-                    transform.localPosition = new Vector2(-4.72f, 5.79f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "santino Santos":
-                    transform.localPosition = new Vector2(-5.07f, 5.64f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "soliman Santos":
-                    transform.localPosition = new Vector2(-5.44f, 5.58f); Run_With_Bool_Minus_One_Santos_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Santos_Baby();
                     break;
                 case "Hyacynth A Rosales":
-                    transform.localPosition = new Vector2(-4.52f, 3.53f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "Hyacynth B Rosales":
-                    transform.localPosition = new Vector2(-4.85f, 3.41f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "totoy Rosales":
-                    transform.localPosition = new Vector2(-4.99f, 3.73f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "opay Rosales":
-                    transform.localPosition = new Vector2(-4.97f, 4.01f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "bantay Rosales":
-                    transform.localPosition = new Vector2(-5.34f, 3.43f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "bulabog Rosales":
-                    transform.localPosition = new Vector2(-5.39f, 3.88f); Run_With_Bool_Minus_One_Rosales_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Rosales_Baby();
                     break;
                 case "Hyacynth A Jimenez":
-                    transform.localPosition = new Vector2(-4.52f, 2.51f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "Hyacynth B Jimenez":
-                    transform.localPosition = new Vector2(-4.85f, 2.40f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "totoy Jimenez":
-                    transform.localPosition = new Vector2(-4.99f, 2.71f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "opay Jimenez":
-                    transform.localPosition = new Vector2(-4.97f, 3.00f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "bantay Jimenez":
-                    transform.localPosition = new Vector2(-5.34f, 2.42f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "bulabog Jimenez":
-                    transform.localPosition = new Vector2(-5.39f, 2.86f); Run_With_Bool_Minus_One_Jimenez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Jimenez_Baby();
                     break;
                 case "Hyacynth A Taguptup":
-                    transform.localPosition = new Vector2(-3.94f, 3.35f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "Hyacynth B Taguptup":
-                    transform.localPosition = new Vector2(-3.94f, 2.98f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "totoy Taguptup":
-                    transform.localPosition = new Vector2(-4.26f, 3.29f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "opay Taguptup":
-                    transform.localPosition = new Vector2(-4.18f, 3.65f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "bantay Taguptup":
-                    transform.localPosition = new Vector2(-4.48f, 2.97f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "bulabog Taguptup":
-                    transform.localPosition = new Vector2(-4.44f, 4.029f); Run_With_Bool_Minus_One_Taguptup_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Taguptup_Baby();
                     break;
                 case "totoy Ramirez":
-                    transform.localPosition = new Vector2(-5.59f, 1.54f); Run_With_Bool_Minus_One_Ramirez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Ramirez_Baby();
                     break;
                 case "opay Ramirez":
-                    transform.localPosition = new Vector2(-5.57f, 1.82f); Run_With_Bool_Minus_One_Ramirez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Ramirez_Baby();
                     break;
                 case "totoy Lopez":
-                    transform.localPosition = new Vector2(-5.60f, 0.88f); Run_With_Bool_Minus_One_Lopez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Lopez_Baby();
                     break;
                 case "opay Lopez":
-                    transform.localPosition = new Vector2(-5.59f, 1.17f); Run_With_Bool_Minus_One_Lopez_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Lopez_Baby();
                     break;
                 case "totoy Villareal":
-                    transform.localPosition = new Vector2(-5.58f, 0.26f); Run_With_Bool_Minus_One_Villareal_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Villareal_Baby();
                     break;
                 case "opay Villareal":
-                    transform.localPosition = new Vector2(-5.57f, 0.53f); Run_With_Bool_Minus_One_Villareal_Baby();
+                    transform.localPosition = originalPosition; Run_With_Bool_Minus_One_Villareal_Baby();
                     break;
                 default:
                     Debug.Log("MeteorName is Not Listed");
