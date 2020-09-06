@@ -31,6 +31,9 @@ public class BossPeanutMaker : MonoBehaviour
     [SerializeField] AudioClip freezeBeamSFX;
     [SerializeField] AudioClip bossChirpSFX;
     [SerializeField] AudioClip makepeanutSFX;
+    [SerializeField] GameObject eyechild;
+    SpriteRenderer eyeChildSpriteRenderer;
+
     bool isShootingLaser = false;
     bool delayNextPainAnimation = false;
     int peanutNumber = 0;
@@ -54,6 +57,7 @@ public class BossPeanutMaker : MonoBehaviour
 
         isDying = false;
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+        eyeChildSpriteRenderer = eyechild.GetComponent<SpriteRenderer>();
         enemyScript = GetComponent<Enemy>();
         thePlayer = FindObjectOfType<Player>().gameObject;
         playerscript = thePlayer.GetComponent<Player>();
@@ -76,6 +80,7 @@ public class BossPeanutMaker : MonoBehaviour
     {
         yield return new WaitForSeconds(0.75f);
         mySpriteRenderer.enabled = true;
+        eyeChildSpriteRenderer.enabled = true;
     }
     // Update is called once per frame
     void Update()
