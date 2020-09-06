@@ -17,6 +17,9 @@ public class MusicPlayer : MonoBehaviour
     [Header("Boss Fight Music")]
     [SerializeField] AudioClip bossMusic;
     [SerializeField] AudioClip bossMusicLevel2;
+    [SerializeField] AudioClip bossMusicLevel3;
+    [SerializeField] AudioClip bossMusicLevel4;
+    [SerializeField] AudioClip bossMusicLevel5;
 
     [Header("Sound effects")]
     [SerializeField] AudioClip gameOverSound;
@@ -88,6 +91,14 @@ public class MusicPlayer : MonoBehaviour
         bGM.Stop();
         bGM.volume = 0.3f;
         bGM.clip = bossMusicLevel2;
+        bGM.Play();
+    }
+
+    public void ChangeBGMtoBossFightMusicLevelThree()
+    {
+        bGM.Stop();
+        bGM.volume = 0.6f;
+        bGM.clip = bossMusicLevel3;
         bGM.Play();
     }
 

@@ -44,7 +44,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8ead3897cebd12e429fe4dba3879bcc4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.549
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -149,6 +149,9 @@ MonoBehaviour:
   gameOverBGM: {fileID: 8300000, guid: 1ab9349e8342a834eb8e8f51856069c2, type: 3}
   bossMusic: {fileID: 8300000, guid: 66b315e37ecf3f942bc1cb0e59c775b7, type: 3}
   bossMusicLevel2: {fileID: 8300000, guid: 9212c58892361d7438b830c6d29c74be, type: 3}
+  bossMusicLevel3: {fileID: 8300000, guid: bd477065fd185bc43a84f874d5d947d0, type: 3}
+  bossMusicLevel4: {fileID: 8300000, guid: 87368bfce8ef7d14ab2a07892b314155, type: 3}
+  bossMusicLevel5: {fileID: 0}
   gameOverSound: {fileID: 8300000, guid: 6fd7c105fffdc2e479541a068da97b92, type: 3}
   levelOneSound: {fileID: 8300000, guid: 88a2c5fd01c54314c98b678f8c418430, type: 3}
   levelTwoSound: {fileID: 8300000, guid: 0fa477cf4cb0f614b837364701b0e9c9, type: 3}
