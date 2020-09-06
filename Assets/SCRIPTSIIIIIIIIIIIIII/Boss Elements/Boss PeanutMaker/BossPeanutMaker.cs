@@ -32,6 +32,7 @@ public class BossPeanutMaker : MonoBehaviour
     [SerializeField] AudioClip bossChirpSFX;
     [SerializeField] AudioClip makepeanutSFX;
     [SerializeField] GameObject eyechild;
+    [SerializeField] ParticleSystemRenderer ciclePartSysRend;
     SpriteRenderer eyeChildSpriteRenderer;
 
     bool isShootingLaser = false;
@@ -50,6 +51,7 @@ public class BossPeanutMaker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ciclePartSysRend.enabled = false;
         transform.position = new Vector2(-4.45f, 8.91f);
         meteorSpawner = FindObjectOfType<MeteorSpawnerScript>().gameObject;
         meteorSpawnerScript = meteorSpawner.GetComponent<MeteorSpawnerScript>();
@@ -78,9 +80,10 @@ public class BossPeanutMaker : MonoBehaviour
 
     private IEnumerator DelayEnableSpriteRenderer()
     {
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(3);
         mySpriteRenderer.enabled = true;
         eyeChildSpriteRenderer.enabled = true;
+        ciclePartSysRend.enabled = true;
     }
     // Update is called once per frame
     void Update()

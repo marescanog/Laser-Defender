@@ -10757,7 +10757,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f5eab81c26bcc014aadd82e90c9af422, type: 2}
-  - {fileID: 2100000, guid: f5eab81c26bcc014aadd82e90c9af422, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16937,7 +16936,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 8ccb52ae6cc88784abf39477f464c8db, type: 2}
-  - {fileID: 2100000, guid: 8ccb52ae6cc88784abf39477f464c8db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19071,6 +19069,7 @@ MonoBehaviour:
   bossChirpSFX: {fileID: 8300000, guid: 02443243fbe9bc24193042f6b00a7a95, type: 3}
   makepeanutSFX: {fileID: 8300000, guid: d5a9d95172b7f7447b4492472488bb16, type: 3}
   eyechild: {fileID: 536101493}
+  ciclePartSysRend: {fileID: 798858214}
 --- !u!82 &1477479702
 AudioSource:
   m_ObjectHideFlags: 0
@@ -31815,7 +31814,6 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 294f4acdbc366744a805bb1c27302630, type: 2}
   - {fileID: 2100000, guid: 294f4acdbc366744a805bb1c27302630, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
