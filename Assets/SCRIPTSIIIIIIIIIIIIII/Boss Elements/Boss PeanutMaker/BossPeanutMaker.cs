@@ -31,6 +31,8 @@ public class BossPeanutMaker : MonoBehaviour
     [SerializeField] AudioClip freezeBeamSFX;
     [SerializeField] AudioClip bossChirpSFX;
     [SerializeField] AudioClip makepeanutSFX;
+    [SerializeField] AudioClip boomSound;
+    [SerializeField] AudioClip DeathSound;
     [SerializeField] GameObject eyechild;
     [SerializeField] ParticleSystemRenderer ciclePartSysRend;
     SpriteRenderer eyeChildSpriteRenderer;
@@ -329,6 +331,7 @@ public class BossPeanutMaker : MonoBehaviour
 
         StartCoroutine(Start_Series_Of_Explosions());
 
+        AudioSource.PlayClipAtPoint(DeathSound, Camera.main.transform.position, 0.5f);
         playerscript.DestroyIceCubeDuetoWin();
 
         if(explodePeanutList.Count==0)
@@ -375,6 +378,7 @@ public class BossPeanutMaker : MonoBehaviour
         float yPlus = Random.Range(-1.75f, 1.75f);
         var positionNew = new Vector3(transform.position.x+ xPlus, transform.position.y+ yPlus, transform.position.z);
         GameObject explosion1 = Instantiate(bossDeathVfX, positionNew, transform.rotation) as GameObject;
+        AudioSource.PlayClipAtPoint(boomSound, Camera.main.transform.position, 0.5f);
         float randomNumber = Random.Range(-1.5f, 1.5f);
         var scaleChange = new Vector3(1, 1, 1f);
         explosion1.transform.localScale = scaleChange * randomNumber;

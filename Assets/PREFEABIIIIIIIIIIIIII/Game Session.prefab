@@ -19068,6 +19068,8 @@ MonoBehaviour:
   freezeBeamSFX: {fileID: 8300000, guid: cc61360f34561f748ba5a3a7f3dd2607, type: 3}
   bossChirpSFX: {fileID: 8300000, guid: 02443243fbe9bc24193042f6b00a7a95, type: 3}
   makepeanutSFX: {fileID: 8300000, guid: d5a9d95172b7f7447b4492472488bb16, type: 3}
+  boomSound: {fileID: 8300000, guid: 97ca50658bf60b04bb2c713fa9198c46, type: 3}
+  DeathSound: {fileID: 8300000, guid: 8887c42ff9348934285f4ee5a8bd514a, type: 3}
   eyechild: {fileID: 536101493}
   ciclePartSysRend: {fileID: 798858214}
 --- !u!82 &1477479702
