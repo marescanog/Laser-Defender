@@ -10960,6 +10960,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8512408345630217964, guid: d73ee20c46be34a42a2fbced7258e60c,
+        type: 3}
+      propertyPath: waveConfigs.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8987130651340677778, guid: d73ee20c46be34a42a2fbced7258e60c,
         type: 3}
       propertyPath: m_RootOrder

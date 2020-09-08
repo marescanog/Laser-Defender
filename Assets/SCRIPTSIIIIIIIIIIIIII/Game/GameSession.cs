@@ -878,7 +878,7 @@ public class GameSession : MonoBehaviour
                     Debug.Log("Activating Boss Spawnere");
                     bossSpawnerSetActiveScriptFour.SetActiveObject();
                     StartCoroutine(bossSpawnerScriptLevelFour.SpawnAllWaves());
-                    musicPlayerScript.ChangeBGMtoBossFightMusic();
+                    musicPlayerScript.ChangeBGMtoBossFightMusicLevelFour();
                     enemySpawnerSetActiveScriptLevelFour.DontSetActiveObject();
                     isEnemySpawnerCourotineDone = false;
                 }
@@ -886,7 +886,7 @@ public class GameSession : MonoBehaviour
                 {
                     //Debug.Log("Activating Boss Spawnere");
                     bossSpawnerSetActiveScriptFour.SetActiveObject();
-                    musicPlayerScript.ChangeBGMtoBossFightMusic();
+                    musicPlayerScript.ChangeBGMtoBossFightMusicLevelFour();
                     enemySpawnerSetActiveScriptLevelFour.DontSetActiveObject();
                     isEnemySpawnerCourotineDone = false;
 

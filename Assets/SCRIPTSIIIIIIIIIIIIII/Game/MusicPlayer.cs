@@ -102,6 +102,14 @@ public class MusicPlayer : MonoBehaviour
         bGM.Play();
     }
 
+    public void ChangeBGMtoBossFightMusicLevelFour()
+    {
+        bGM.Stop();
+        bGM.volume = 0.6f;
+        bGM.clip = bossMusicLevel4;
+        bGM.Play();
+    }
+
     /// <summary>
     /// ====BGM
     /// </summary>
