@@ -26,6 +26,8 @@ public class GunRotationPattern : MonoBehaviour
     [SerializeField] AudioClip shootSound;
     [SerializeField] float shootSoundVolume;
 
+    [SerializeField] bool shootParticles = false;
+    [SerializeField] ParticleSystem particleLauncher;
     //Rotation Variables
     int numOfLeftRot;
     int numOfRightRot;
@@ -55,6 +57,9 @@ public class GunRotationPattern : MonoBehaviour
     Transform myRotation;
     GameObject gunHead;
 
+    bool isDestroyed = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -82,40 +87,49 @@ public class GunRotationPattern : MonoBehaviour
     void Update()
 
     {
-        if (countDownOn) { ActivateTimer(); }
-
-        if (timeBetRotCycles <= 0) { DoTimerReachedZeroActions(); }
-
-        if (playRotate)
+        if(!isDestroyed)
         {
-            CountDownAndShoot();
+            if (countDownOn) { ActivateTimer(); }
 
-            if (rotateToLeft)
+            if (timeBetRotCycles <= 0) { DoTimerReachedZeroActions(); }
+
+            if (playRotate)
             {
-                DoLeftRotationMethod();
-            }
-            else if (!rotateToLeft)
-            {
-                DoRightRotationMethod();
+                CountDownAndShoot();
+
+                if (rotateToLeft)
+                {
+                    DoLeftRotationMethod();
+                }
+                else if (!rotateToLeft)
+                {
+                    DoRightRotationMethod();
+                }
+
+
+                if (currentNumRot8 >= totalNumRot)
+                {
+                    //  Debug.Log("Total Number of Rotations Complete");
+                    StartLeftTrueorFalse();
+                    leftRotIndex = 0;
+                    rightRotIndex = 0;
+                    targetRotVal = 0;
+                    currentNumRot8 = 0;
+                    playRotate = false;
+                    updateTargetRotVal = false;
+                    countDownOn = true;
+                }
+
+                myRotation.eulerAngles = new Vector3(0, 0, currentAngleValue);
             }
 
 
-            if (currentNumRot8 >= totalNumRot)
-            {
-              //  Debug.Log("Total Number of Rotations Complete");
-                StartLeftTrueorFalse();
-                leftRotIndex = 0;
-                rightRotIndex = 0;
-                targetRotVal = 0;
-                currentNumRot8 = 0;
-                playRotate = false;
-                updateTargetRotVal = false;
-                countDownOn = true;
-            }
 
-            myRotation.eulerAngles = new Vector3(0, 0, currentAngleValue);
+
+
         }
     }
+
     private void CountDownAndShoot()
     {
         //Grabs Updated transform values from Child Object Attached to it
@@ -123,8 +137,17 @@ public class GunRotationPattern : MonoBehaviour
         shotCounter -= Time.deltaTime;
         if (shotCounter <= 0f)
         {
-            Fire();
-            shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+            if(!shootParticles)
+            {
+                Fire();
+                shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+            }
+            else if (shootParticles)
+            {
+                particleLauncher.Play();
+                shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+            }
+
         }
     }
     private void Fire()
@@ -520,4 +543,14 @@ public class GunRotationPattern : MonoBehaviour
         Destroy(gameObject);
     }
     */
+
+    public void Enabled()
+    {
+        isDestroyed = false;
+    }
+
+    public void Disabled()
+    {
+        isDestroyed = true;
+    }
 }
