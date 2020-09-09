@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5645975119397545143}
   - component: {fileID: 7323246752757874586}
+  - component: {fileID: 1662989094}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -164,6 +165,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1662989094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535355442483204046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8204feaa0cafe0241b58f2e41e7b9e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorSpeed: 1
 --- !u!1 &8812314667952874469
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,9 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 873b1282af7d1a34f9d47838ba3f8b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 0}
+  waveConfig: {fileID: 11400000, guid: 742ab1c4fd44a6245970b3499f477ffe, type: 2}
   movementLoop:
-  - {fileID: 11400000, guid: 0ecf7aa5eecde2c488df0e97d2a549ea, type: 2}
+  - {fileID: 11400000, guid: 5cff69a7e48f06a4fbd377c4de461059, type: 2}
   pathPointIndex: 0
   pathLoopIndex: 0
   DestroyEndWLoop: 0
